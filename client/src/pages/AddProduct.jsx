@@ -68,8 +68,8 @@ const AddProduct = () => {
             </div>
 
             <div className="flex justify-center">
-              <button onClick={handleAdd} className="py-1 px-5 bg-blue-500 text-white p-5 rounded hover:bg-blue-400 hover:text-white m-2 ">Add</button>
-              <button onClick={handleCancel} className="py-1 px-5 bg-black text-white hover:bg-black m-2 ml-auto">Cancel</button>
+              <button onClick={handleAdd} className="py-1 px-5 bg-pink-500 text-white p-5 rounded hover:bg-blue-400 hover:text-white m-2 ">Add</button>
+              <button onClick={handleCancel} className="py-1 px-5 bg-orange-400 text-white hover:bg-black m-2 ml-auto">Cancel</button>
             </div>
 
             {errorMessage && (

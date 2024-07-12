@@ -59,7 +59,7 @@ const UpdateProduct = ({ product, onUpdate, onHide }) => {
             {error && <div className="text-red-500">{error}</div>}
 
             <div className="flex justify-center">
-              <button onClick={handleUpdate} className="py-1 px-5 bg-black text-white p-5 ml-auto rounded hover:bg-purple-400 hover:text-white m-2">Update</button>
+              <button onClick={handleUpdate} className="py-1 px-5 bg-pink-600 text-white p-5 ml-auto rounded hover:bg-purple-400 hover:text-white m-2">Update</button>
             </div>
           </div>
         </form>
